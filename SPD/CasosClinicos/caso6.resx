@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label2.Text" xml:space="preserve">
+    <value>A.M.S.C, 69 anos, sexo feminino, viúva, analfabeta, mora sozinha, é aposentada e faz serviços rotineiros na agricultura familiar, procedente e residente de Itainópolis-PI, procurou uma Unidade Básica de Saúde, relatando a existência de um ferimento de difícil cicatrização no pé direito. Paciente afirma que, há dois meses, sofreu um acidente com o machado no momento que estava cortando lenha. A região atingida foi o quinto metatarso e estava fazendo o tratando do ferimento em casa, utilizando plantas medicinais e tecidos limpos, além disso, usava analgésicos para atenuação da dor. Em relação ao quadro geral, tem diagnóstico de diabetes mellitus há aproximadamente 17 anos, fazendo uso irregular de metformina 500mg (tendo suspendido a medicação por conta própria). Ademais, faz tratamento para hipertensão arterial com Captopril 75 mg, e é tabagista há 20 anos. Ao exame físico, apresenta-se com bom estado geral, orientada, consciente, acianótica, anictérica, relata sensação de febre há dois dias, porém não foi aferida por não ter termômetro, eupneica (16 rpm), FC= 80 bpm, pressão arterial 140 x 80 mmHg  e relatou diminuição discreta da visão nos últimos meses. Em relação ao membro aferido, a paciente notou que a lesão que inicialmente era superficial se tornou mais profunda, extensa e com secreção. À inspeção do enfermeiro, os pés apresentavam-se pálidos quando elevados e cianóticos quando em declínio, pelos rarefeitos na região dorsal, à palpação apresentava pele fria, os pulsos pediosos e tibiais posteriores apresentavam-se diminuídos bilateralmente, apresentou normalidade do reflexo tendíneo bilateralmente.  Ao realizar o teste do monofilamento de nylon 10g, apresentou normalidade na sensibilidade cutânea, além disso, apresentou normalidade na percepção do estímulo vibratório pelo diapasão de 128 Hz nas proeminências ósseas bilaterais. Aos exames laboratoriais apresentou glicemia de jejum de 543 mg/dL, HgA1c 11%,  VHS de 135 mm/h e o leucograma sem alterações. Acerca do método de avaliação da sensibilidade e conduta de enfermagem, analise as alternativas, a seguir:</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>I.   Primeiro aplique o monofilamento nas mãos do paciente (ou cotovelo ou testa) para demonstrar como é a sensação; teste três locais diferentes em ambos os pés; certifique-se de que o paciente não consiga ver onde o examinador aplica o filamento; aplique o monofilamento perpendicularmente à superfície da pele com força suficiente para curvá-lo; a duração total da abordagem – contato com a pele – e remoção do filamento deve ser de aproximadamente 2 segundos;
+
+II.  Não aplique o filamento diretamente sobre uma úlcera, calo, cicatriz ou tecido necrótico; não deixe que o filamento deslize pela pele ou faça contato repetitivo no local do teste; pressione o filamento na pele e pergunte ao paciente se ele sente a pressão aplicada e, a seguir, onde ele sente a pressão; repita essa aplicação duas vezes no mesmo local, mas alterne com pelo menos uma aplicação “simulada” na qual o filamento não é aplicado (um total de três perguntas por local); a sensibilidade protetora estará presente se em cada local o paciente responder corretamente em duas das três aplicações e ausente se responder incorretamente em duas das três aplicações; incentive os pacientes durante o teste, dando feedback positivo.
+
+III. Primeiro, aplique o diapasão no pulso do paciente (ou cotovelo ou clavícula) para demonstrar como é a sensação; certifique-se de que o paciente não consegue ver se ou onde o examinador aplica o diapasão; aplique o diapasão na face dorsal da falange distal do primeiro pododáctilo – hálux (ou outro dedo do pé se o hálux estiver ausente). 
+
+IV. Aplique o diapasão perpendicularmente, com pressão constante; Repita esta aplicação mais duas vezes, mas alterne com pelo menos uma aplicação “simulada” em que o diapasão não esteja vibrando; o teste é positivo se o paciente responder corretamente a pelo menos duas de três aplicações e negativo se duas das três respostas estiverem incorretas; Se o paciente não conseguir sentir as vibrações na falange distal do hálux, repita o teste na direção mais proximal (por exemplo, maléolo, tuberosidade tibial); Incentive o paciente durante o teste, dando feedback positivo. 
+
+V.  É indicado curativos locais diários com auxílio do enfermeiro da equipe de saúde, já que a idosa mora sozinha. Somado à isso, é necessário orientar a importância do controle de comorbidades para reduzir a progressão da úlcera e evitar o aparecimento de novas lesões, como controle do diabetes, da hipertensão arterial e da cessação tabágica. Além disso, são necessários cuidados que incluem rotinas de higiene diária, restrições ao caminhar descalço e orientações sobre calçados adequados. Após implementação da conduta, deve-se solicitar exames, como glicemia de jejum e hemoglobina glicada, e agendar consulta de retorno para avaliação dos exames e da lesão. </value>
+  </data>
+</root>

@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{64B30A1F-DD3F-422E-8701-FF6B0C4BC122}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SPD</RootNamespace>
+    <AssemblyName>SPD</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Apresentação\BoasVindas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentação\BoasVindas.Designer.cs">
+      <DependentUpon>BoasVindas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentação\Cadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentação\Cadastro.Designer.cs">
+      <DependentUpon>Cadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentação\Creditos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentação\Creditos.Designer.cs">
+      <DependentUpon>Creditos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentação\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentação\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentação\Introducao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentação\Introducao.Designer.cs">
+      <DependentUpon>Introducao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apresentação\ResetSenha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apresentação\ResetSenha.Designer.cs">
+      <DependentUpon>ResetSenha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Arquivos\MaterialApoio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Arquivos\MaterialApoio.Designer.cs">
+      <DependentUpon>MaterialApoio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CasosClinicos\caso1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CasosClinicos\caso1.Designer.cs">
+      <DependentUpon>caso1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CasosClinicos\caso10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CasosClinicos\caso10.Designer.cs">
+      <DependentUpon>caso10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CasosClinicos\caso2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CasosClinicos\caso2.Designer.cs">
+      <DependentUpon>caso2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CasosClinicos\caso3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CasosClinicos\caso3.Designer.cs">
+      <DependentUpon>caso3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CasosClinicos\caso4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CasosClinicos\caso4.Designer.cs">
+      <DependentUpon>caso4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CasosClinicos\caso5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CasosClinicos\caso5.Designer.cs">
+      <DependentUpon>caso5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CasosClinicos\caso6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CasosClinicos\caso6.Designer.cs">
+      <DependentUpon>caso6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CasosClinicos\caso7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CasosClinicos\caso7.Designer.cs">
+      <DependentUpon>caso7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CasosClinicos\caso8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CasosClinicos\caso8.Designer.cs">
+      <DependentUpon>caso8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CasosClinicos\caso9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CasosClinicos\caso9.Designer.cs">
+      <DependentUpon>caso9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CasosClinicos\MenuCasos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CasosClinicos\MenuCasos.Designer.cs">
+      <DependentUpon>MenuCasos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CasosClinicos\Resultado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CasosClinicos\Resultado.Designer.cs">
+      <DependentUpon>Resultado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\Conexao.cs" />
+    <Compile Include="DAL\LoginDaoComandos.cs" />
+    <Compile Include="Modelo\Controle.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SPDDataSet.cs">
+      <DependentUpon>SPDDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SPDDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SPDDataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Apresentação\BoasVindas.resx">
+      <DependentUpon>BoasVindas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentação\Cadastro.resx">
+      <DependentUpon>Cadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentação\Creditos.resx">
+      <DependentUpon>Creditos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentação\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apresentação\Introducao.resx">
+      <DependentUpon>Introducao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Arquivos\MaterialApoio.resx">
+      <DependentUpon>MaterialApoio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CasosClinicos\caso1.resx">
+      <DependentUpon>caso1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CasosClinicos\caso10.resx">
+      <DependentUpon>caso10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CasosClinicos\caso2.resx">
+      <DependentUpon>caso2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CasosClinicos\caso3.resx">
+      <DependentUpon>caso3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CasosClinicos\caso4.resx">
+      <DependentUpon>caso4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CasosClinicos\caso5.resx">
+      <DependentUpon>caso5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CasosClinicos\caso6.resx">
+      <DependentUpon>caso6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CasosClinicos\caso7.resx">
+      <DependentUpon>caso7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CasosClinicos\caso8.resx">
+      <DependentUpon>caso8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CasosClinicos\caso9.resx">
+      <DependentUpon>caso9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CasosClinicos\MenuCasos.resx">
+      <DependentUpon>MenuCasos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CasosClinicos\Resultado.resx">
+      <DependentUpon>Resultado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SPDDataSet.xsc">
+      <DependentUpon>SPDDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SPDDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SPDDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SPDDataSet.xss">
+      <DependentUpon>SPDDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

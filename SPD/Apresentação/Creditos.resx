@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value> REFERÊNCIAS:
+ARAÚJO, M. F. N.; HOLANDA, A.M.P.; MORAIS, W.M.S. et al.  Pé diabético: promoção da saúde e assistência para o controle de agravos. Revista Eletrônica Acervo Saúde, v. 23, n. 3, p. e11930. Disponível em: https://doi.org/10.25248/reas.e11930.2023. Acesso em: 4 jun. 2023.
+	
+BRASIL. Conselho Nacional de Secretarias Municipais de Saúde. Fundamentos da Diabetes Tipo 2 [recurso eletrônico]. Atualização no Manejo Clínico do Paciente com Diabetes Mellitus Tipo 2; E-book Metas de Controle para o Indivíduo com DM2, seguimento e rastreamento das complicações. Conselho Nacional de Secretarias Municipais de Saúde, Ministério da Saúde. 1ª ed. Brasília: Conasems, 2023. 67p. Disponível em: https://mais.conasems.org.br. Acesso em: 6 jun. 2023.
+
+BRASIL. Ministério da Saúde. Manual do pé diabético. Estratégias para o cuidado da pessoa com doença crônica. Secretaria de Atenção à Saúde Departamento de Atenção Básica. Tiragem. 1ª ed. Brasília/DF, 2016. 64p. Disponível em: https://www.as.saude.ms.gov.br. Acesso em: 10 jun. 2023.
+
+ BRASIL. Ministério da Saúde. Secretaria de Atenção à Saúde. Departamento de Atenção Básica. Estratégias para o cuidado da pessoa com doença crônica: diabetes mellitus. Caderno de Atenção Básica, 36. Ministério da Saúde, Secretaria de Atenção à Saúde, Departamento de Atenção Básica.  Brasília: Ministério da Saúde, 2013. 160p. Disponível em: https://bvsms.saude.gov.br. Acesso em: 6 jun. 2023.
+
+BRASIL. Ministério da Saúde. Secretaria de Vigilância em Saúde. Departamento de Análise em Saúde e Vigilância de Doenças Não Transmissíveis. Plano de Ações Estratégicas para o Enfrentamento das Doenças Crônicas e Agravos não Transmissíveis no Brasil 2021-2030 [recurso eletrônico]. Ministério da Saúde, Secretaria de Vigilância em Saúde, Departamento de Análise em Saúde e Vigilância de Doenças Não Transmissíveis. Brasília: Ministério da Saúde, 2021. 118 p. Disponível em: Modo de acesso: http://bvsms.saude.gov.br/bvs/publicacoes/plano_enfrentamento_doencas_cronicas_agravos_2021_2030.pdf. Acesso em: 22 jun. 2023.
+
+BRASIL. Sociedade Brasileira de Imunizações/ Sociedade Brasileira de Diabetes. Guia de imunização SBIm/SBD – Diabetes 2019-2020. Magic | RM. São Paulo, SP, 2019-2020. 51p. Disponível em:  https://sbim.org.br. Acesso em: 8 jun. 2023. 
+
+CERQUEIRA, M. M. B. F. Protocolo de cuidado à pessoa com pé diabético. Salvador, 2022. 23p. Disponível em: https://telessaude.saude.ba.gov.br . Acesso em: 22 jun. 2023.
+INTERNATIONAL DIABETES FEDERATION (IDF). 537 million people worldwide have diabetes. IDF Diabetes Atlas, 2021. Novo Nordisk, Pfizer-MSD Alliance, and Sanofi. 10ª ed. 141p. Disponível em:  www.diabetesatlas.org. Acesso em: 8 jun. 2023.
+
+
+
+LOPES, G. S. GÓIS.;  ROLIM, I. L. T. P.; ALVES, R. S. et al. Representações sociais sobre pé diabético: contribuições para Atenção Primária à saúde no Nordeste brasileiro. Ciênc. Saúde Colet. (Impr.), v. 26, n.5, p.1793-1803, 2021.  Disponível em: https://doi.org/ 10.1590/1413-81232021265.04702021. Acesso em: 22 jun. 2023.
+
+MATTOS, L.; ADMONI, S.; PARISI, M. et al. Infecção no pé diabético. Diretriz Oficial da Sociedade Brasileira de Diabetes (2022). 40p. Disponível em: https://doi.org/10.29327/557753.2022-20. Acesso em: 8 jun. 2023.
+
+NASCIMENTO, J. W. A.; JESUS, S. B. SILVA, E. C. S. et al. Manual de detecção e prevenção do pé diabético para profissionais da atenção primária à saúde. Universidade Católica de Pernambuco, Recife, 2020. 28p. Disponível em: https://portal.unicap.br . Acesso em: 6 jun. 2023.
+
+PARISI, M. C. R. Manual de cuidados com os pés para pessoas com diabetes. Coordenação do departamento de doenças nos pés e neuropatias. Sociedade Brasileira de Diabetes (SBD), 2ª ed. São Paulo, 2021. 63p. Disponível em: www.diabetes.org.br. Acesso em: 4 jun. 2023. 
+
+SACCO, I. C.N.; LUCOVÉIS, M. L. S.; THULER, S. R.; PARISI, M. C. R. Diagnóstico e prevenção de úlceras no pé diabético. Diretriz Oficial da Sociedade Brasileira de Diabetes (2022).v.5, n. 5, p. 609-16. Disponível em: https://doi.org/10.29327/5238993.2023-4. Acesso em: 6 jun. 2023.
+
+SCHAPER, N. C.; NETTEN, J. J. V.; APELQVIST, J. et al. Diretrizes práticas sobre a prevenção e o tratamento da doença do pé relacionada ao diabetes. Atualização IWGDF, 2023. Grupo de trabalho Internacional sobre o pé diabético. 31p. Disponível em: https://www.saude.ba.gov.br/. Acesso em: 10 jun. 2023.
+
+SILVA, V.R.V.; LAGE, L. R.; SILVA, N. S. et al. Intervenções de enfermagem para prevenção do pé diabético em pessoas com diabetes mellitus. Research, Society and Development, v. 12, n. 4, e6012440914, 2023. Disponível em:  http://dx.doi.org/10.33448/rsd-v12i4.40914. Acesso em: 6 jun. 2023.
+
+
+
+ELABORAÇÃO:
+
+Equipe de Enfermagem:
+
+Enfa. Dda. Simone Barroso de Carvalho
+Profa. Dra. Ana Roberta Vilarouca da Silva
+
+Profissional Desenvolvedor do Software:
+Francisco Edilberto </value>
+  </data>
+</root>
