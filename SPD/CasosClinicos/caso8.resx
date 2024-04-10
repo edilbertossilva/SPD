@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="radioButton4.Text" xml:space="preserve">
+    <value>Pé Neurovascular. Identificar, na sua atuação junto ao paciente, as anormalidades precoces para lhes proporcionar educação contínua e lhes oferecer apoio na prevenção de úlceras e infecção de membros inferiores, mediante a categoria de risco identificado. Além disso, o enfermeiro deve coletar a história clínica (duração do DM e controle glicêmico inadequado (HbA1c ≥7,0%), história de complicações micro e macrovasculares, história de ulceração ou amputação, tabagismo, dor ), fazer exame dos pés, este, deve ser iniciado pela remoção dos calçados e meias, que também precisam ser avaliados. Deve-se classificar o risco para o Pé diabético e periodicidade da avaliação.</value>
+  </data>
+  <data name="radioButton3.Text" xml:space="preserve">
+    <value>Pé Neuroisquêmico. Verificar os sinais vitais, encaminhar ao médico da Unidade Básica de saúde, orientar quanto ao corte adequado das unhas e a utilização de calçados novos, por mais de uma hora por dia. Além disso, o enfermeiro deve fazer a monitoração nutricional; controle nutricional; dieta prescrita; melhora da educação em saúde; controle da dor; administração de medicamentos; redução da ansiedade; apoio emocional; aferir a PA, investigar os fatores de risco e hábitos de vida, orientar sobre a doença, avaliar os sintomas e orientações sobre hábitos de vida pessoais e familiares.</value>
+  </data>
+  <data name="radioButton2.Text" xml:space="preserve">
+    <value>Pé Isquêmico. Fazer o acompanhamento do paciente para inspeção do pé e avaliação da pele e sensibilidade por meio de testes simples e de baixo custo. É necessário, também, estimular comportamentos de autocuidado e promover educação em diabetes, especialmente, em relação aos cuidados simples com os pés, como: inspeção dos calçados, corte adequado das unhas, higiene e secagem dos dedos, hidratação, dentre outras. Orientar quanto a cessação do tabagismo, uso adequado da medicação, alimentação adequada e cuidado com o ferimento atual. Encaminhar para avaliação médica. </value>
+  </data>
+  <data name="rbtCorreto.Text" xml:space="preserve">
+    <value>Pé Neuropático. Fazer o acompanhamento do paciente para inspeção do pé e avaliação da pele e sensibilidade por meio de testes simples e de baixo custo. É necessário, também, estimular comportamentos de autocuidado e promover educação em diabetes, especialmente, em relação aos cuidados simples com os pés, como: inspeção dos calçados, corte adequado das unhas, higiene e secagem dos dedos, hidratação, dentre outras. Orientar quanto a cessação do tabagismo, uso adequado da medicação, alimentação adequada e cuidado com o ferimento atual. Encaminhar para avaliação médica.</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value> S.M.C.S, 67 anos, feminina, fumante desde os 19 anos de idade, diagnóstico de diabetes mellitus tipo 2 há 10 anos. Faz consultas médicas no Posto de Saúde em intervalos longos e irregulares, usa Glibenclamida de 5 mg, uma vez ao dia e controla a dieta apenas evitando o uso de açúcar. Foi atendida no Posto de Saúde relatando ter pisado em objeto pontiagudo com o pé direito há 1 semana. No momento do trauma não sentiu dor e não houve sangramento, apenas lavou com água e sabão. Relata que devido à idade, a visão já não é a mesma, apresentando-se um pouco embaçada. Três dias após o ocorrido, sua filha chamou a atenção para a presença de inchaço e vermelhidão, e isso piorou progressivamente. Ao tocar na região afetada, encontrava-se quente e sua mãe relatou sensação de queimação. Não procurou atendimento logo, por que não estava sentindo dor forte. Ao exame físico realizada pelo enfermeiro, apresentava lesão punctiforme na região plantar do ante pé, hiperemia e edema em todo o pé, pele seca e pontos de calosidade, Na palpação dos pulsos pediais apresentava pulsos amplos e simétricos. Tax: 36,8 ° C; P: 71 bpm; FR: 17 rpm; PA: 120x90 mmHg; Glicemia Capilar 254 mg/dL. Nesse contexto, qual a classificação fisiopatológica do Pé Diabético e conduta de enfermagem?</value>
+  </data>
+</root>

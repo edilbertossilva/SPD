@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="radioButton4.Text" xml:space="preserve">
+    <value>O enfermeiro tem papel de educador de forma a buscar o ensinamento e estimular para o autocuidado, chamando a atenção para os cuidados preventivos como a inspeção diária, higiene e hidratação dos pés, incentivar a prática de atividade física regular, monitoramento da glicemia, avaliar o estado nutricional, aplicação de compressas mornas e uso adequado dos calçados. Além disso, é necessário verificar o estado geral do paciente, não esquecendo os dados vitais, e também realizar o exame completo, com a inspeção, ausculta, percussão e palpação. Não há indício de infecção.</value>
+  </data>
+  <data name="radioButton3.Text" xml:space="preserve">
+    <value>O enfermeiro tem um papel fundamental no processo do cuidado, no entanto deve repensar sobre suas práticas e formação acadêmica, no tocante à atuação e às ações de enfermagem, procurando identificar precocemente os riscos e complicações que afetam o indivíduo com pé diabético. Portanto, o enfermeiro deve posicionar-se à direita do paciente e com a mão direita em garra tentar sentir o polo esplênico inferior durante a inspiração profunda próximo ao rebordo costal esquerdo. Trata-se de uma infecção grave.</value>
+  </data>
+  <data name="radioButton2.Text" xml:space="preserve">
+    <value>É necessário que o enfermeiro durante o exame físico avalie a anatomia do pé verificando deformidades anatômicas (dedos em garra, dedos em martelo, joanetes e perda do arco plantar, também chamada de Artropatia de Charcot), hidratação, coloração, temperatura, distribuição dos pelos e integridade de unhas e pele. Além disso, verificar a avaliação neurológica por meio dos testes de sensibilidade (tátil, dolorosa-térmica e vibratória), avaliar reflexos tendíneos e função motora; realizar avaliação vascular (palpação dos pulsos pediosos e tibiais posteriores) e avaliar a ferida, classificando-a. Trata-se de uma infecção moderada.</value>
+  </data>
+  <data name="rbtCorreto.Text" xml:space="preserve">
+    <value>É necessário que o enfermeiro durante o exame físico avalie a anatomia do pé verificando deformidades anatômicas (dedos em garra, dedos em martelo, joanetes e perda do arco plantar, também chamada de Artropatia de Charcot), hidratação, coloração, temperatura, distribuição dos pelos e integridade de unhas e pele. Além disso, verificar a avaliação neurológica por meio dos testes de sensibilidade (tátil, dolorosa-térmica e vibratória), avaliar reflexos tendíneos e função motora; realizar avaliação vascular (palpação dos pulsos pediosos e tibiais posteriores) e avaliar a ferida, classificando-a. Trata-se de uma infecção leve.</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>F.M.D.A, 52 anos de idade, sexo feminino, analfabeta, reside com a filha e a irmã, entretanto, possui laços familiares conflituosos e encontra-se desempregada. Etilista. Realizou tratamento para tuberculose por duas vezes (2008 e 2013). Não realiza exercícios físicos. Dificuldades em conciliar sono/repouso. Possui diagnóstico de diabetes mellitus e faz uso de Glifage XR 500mg 1 vez ao dia e Insulina NPH. Refeições inadequadas em face do baixo nível de instrução e monetário. Ao exame físico, peso de 44,8 kg, altura: 1,57 metros, IMC= 18,2 (Abaixo do peso). Sinais Vitais: Tax: 36,8 ° C; P: 75 bpm; FR: 19 rpm; PA: 120x80 mmHg; Glicemia Capilar 232 mg/dL. Crânio normocefálico, sem dor a palpação. Face normal e simétrica. Olhos simétricos. Acuidade visual e auditiva preservada. Mucosa oral corada e hidratada. Pele desidratada. Relata passar muito tempo fora de casa e exposta ao sol. Anictérica e acianótica. Abdome plano e simétrico. Membros superiores simétricos. Apresenta ferida na região calcânea do membro inferior esquerdo há mais de dois meses, edemaciada, vermelha e com presença de exsudato purulento. Unhas dos pés grandes e sujas. Acerca do exame físico do pé e classificação da gravidade da infecção é correto afirmar:</value>
+  </data>
+</root>

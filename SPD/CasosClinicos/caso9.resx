@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="radioButton4.Text" xml:space="preserve">
+    <value>Categoria de risco 2. Recomendação: Considerar uso de calçados adaptados e consulta com um cirurgião vascular para seguimento conjunto (se a Doença Arterial Periférica estiver presente). Considerar ortopedista, caso não haja adaptação. Educação contínua. Acompanhamento: A cada 3-6 meses Enfermeiro e/ou médico.</value>
+  </data>
+  <data name="radioButton3.Text" xml:space="preserve">
+    <value>Categoria de risco 1. Recomendação: Considerar uso de calçados adaptados e consulta com um cirurgião vascular para seguimento conjunto (se a Doença Arterial Periférica estiver ausente). Considerar ortopedista, caso não haja adaptação. Continuar a educação do paciente. Acompanhamento: Anual Enfermeiro e/ou médico.</value>
+  </data>
+  <data name="radioButton2.Text" xml:space="preserve">
+    <value>Categoria de risco 0. Recomendação: Educação do paciente, estímulo ao autocuidado, incluindo aconselhamento sobre sapato adequado. Considerar uso de calçados adaptados e consulta com um cirurgião vascular para seguimento conjunto (se a Doença Arterial Periférica estiver presente). Acompanhamento: A cada 2-3 meses Enfermeiro e/ou médico e encaminhamento para cirurgião vascular. </value>
+  </data>
+  <data name="rbtCorreto.Text" xml:space="preserve">
+    <value>Categoria de risco 3. Recomendação: considerar uso de calçados adaptados e consulta com um cirurgião vascular para seguimento conjunto (se a Doença Arterial Periférica estiver presente). Considerar ortopedista, caso não haja adaptação. Educação contínua Acompanhamento: a cada 1 ou 2 meses com Enfermeiro e/ou médico da Atenção Básica ou equipe especializada.</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value> L.P.S.A, 57 anos, sexo masculino, branco, com história de Diabetes Mellitus (DM) há cerca de 15 anos, sem outras comorbidades, procurou a Unidade Básica de Saúde (UBS) do seu bairro, por início, há 10 dias, de dor, eritema, edema e aumento de temperatura no pé esquerdo após trauma leve. Fazia uso de Glifage XR, na dose de 500 mg ao dia, sem outras medicações. Ao chegar na UBS, foi avaliado pelo médico e enfermeiro da UBS. Ao exame físico, apresentava-se em bom estado geral, afebril, com pressão arterial e frequência cardíaca normais. Pé esquerdo com discreto edema, eritema e calor local, que se estendia até o terço distal da perna. No quinto pododáctilo, visualizava-se necrose seca e, em área adjacente, no dorso do pé, lesão ulcerada, exposição de tendão, sem exposição óssea, e com secreção purulenta. Pulsos pedioso e tibial posterior presentes em ambos os pés. Na avaliação de outras complicações relacionadas ao DM, identificou-se a presença de retinopatia diabética não proliferativa moderada ao fundo de olho e teste do monofilamento 10g positivo. Exames laboratoriais evidenciavam 22.120 leucócitos/mm3, sem formas jovens, proteína C reativa de 91 mg/dl (valor de referência [VR]: &lt; 5 mg/dL).  De acordo com o relato de caso, identifique a categoria de risco, a recomendação e acompanhamento a ser realizado pela Equipe da Atenção Básica.,</value>
+  </data>
+</root>

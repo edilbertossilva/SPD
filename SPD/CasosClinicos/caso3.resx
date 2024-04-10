@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="radioButton4.Text" xml:space="preserve">
+    <value>Na técnica de avaliação do reflexo de tendíneo Aquileu, uma das respostas esperada é a extensão plantar reflexa do pé, consequente à percussão do tendão. Há avaliação das fibras aferentes, as conexões sinápticas no interior da medula espinal, as fibras motoras e as vias motoras descendentes. As lesões de neurônio motor inferior (p. ex., aquelas que afetam o corno cinzento anterior, a raiz do nervo espinal ou o próprio nervo) diminuem os reflexos. </value>
+  </data>
+  <data name="radioButton3.Text" xml:space="preserve">
+    <value>O uso do monofilamento tem o objetivo de avaliar a sensibilidade tátil em quatro regiões dos pés: hálux (superfície plantar da falange distal), 1ª, 2ª e 4ª cabeças dos metatarsos de cada pé. Além disso, possibilita graduar a sensibilidade em vários níveis, desde normal até a perda da sensibilidade profunda.</value>
+  </data>
+  <data name="rbtCorreto.Text" xml:space="preserve">
+    <value>Na avaliação da sensibilidade tátil, deve se aplicar o monofilamento adequado (10 gramas) perpendicular à superfície da pele, sem que a pessoa examinada veja o momento do toque e perguntar, aleatoriamente, se o paciente sentiu ou não a pressão/toque (SIM ou NÃO) e onde está sendo tocado (Pé Direito ou Esquerdo).</value>
+  </data>
+  <data name="radioButton2.Text" xml:space="preserve">
+    <value>A avaliação da sensibilidade vibratória é avaliada com o uso de um diapasão de 120 Hz. para compreender se o paciente está sentindo pouco ou nada da vibração, sendo aplicado em superfícies ósseas. Além disso, é possível avaliar se o paciente sente algo diferente como, dores, hipersensível ou qualquer sintoma disestésico</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>P.M.S., 43 anos, masculino, casado, comerciante, residente no município de Picos-PI, diagnosticado com diabetes mellitus e hipertensão arterial, toma regularmente as medicações para as comorbidades. Recentemente compareceu a Unidade Básica de Saúde do Junco, para a aferição de pressão arterial (140x90 mmHg) e glicemia capilar (305 mg/dl). Durante a consulta de enfermagem, relatou para a enfermeira perda de sensibilidade no pé esquerdo, assim, a enfermeira sabendo a importância do teste de sensibilidade na prevenção das complicações do pé diabético, aproveitou a oportunidade para descalçar o paciente, examinar os pés e realizar o teste. Acerca do método de avaliação da sensibilidade, é correto afirmar: </value>
+  </data>
+</root>
